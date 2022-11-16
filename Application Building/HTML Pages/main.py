@@ -4,7 +4,7 @@ from cloudant.client import  Cloudant
 import cv2
 
 client = Cloudant.iam("eb55a2b7-ae45-4df8-8d1c-69c5229ffdbe-bluemix","YzG5FZg9Vs_HScOBZaWyVXm7PpNjbPrmPaPMfHx7w3X9",connect=True)
-my_database = client.create_database("database-dharan")
+my_database = client.create_database("database-1")
 
 
 app = Flask(__name__)
