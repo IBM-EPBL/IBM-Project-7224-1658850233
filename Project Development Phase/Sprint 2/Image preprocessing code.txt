@@ -64,7 +64,7 @@
    ],
    "source": [
     "body_train_generator = train_datagen.flow_from_directory(\n",
-    "        'V:\\\\WorkSpace\\\\IBM-Project-23426-1659882722\\\\Dataset\\\\Car damage\\\\body\\\\training',\n",
+    "        'V:\\\\WorkSpace\\\\IBM-Project\\\\Dataset\\\\Car damage\\\\body\\\\training',\n",
     "        target_size=(150, 150),\n",
     "        batch_size=32,\n",
     "        class_mode='categorical')"
@@ -85,7 +85,7 @@
    ],
    "source": [
     "body_val_generator = val_datagen.flow_from_directory(\n",
-    "        'V:\\\\WorkSpace\\\\IBM-Project-23426-1659882722\\\\Dataset\\\\Car damage\\\\body\\\\validation',\n",
+    "        'V:\\\\WorkSpace\\\\IBM-Project\\\\Dataset\\\\Car damage\\\\body\\\\validation',\n",
     "        target_size=(150, 150),\n",
     "        batch_size=32,\n",
     "        class_mode='categorical')"
@@ -113,7 +113,7 @@
    ],
    "source": [
     "level_train_generator = train_datagen.flow_from_directory(\n",
-    "        'V:\\\\WorkSpace\\\\IBM-Project-23426-1659882722\\\\Dataset\\\\Car damage\\\\level\\\\training',\n",
+    "        'V:\\\\WorkSpace\\\\IBM-Project\\\\Dataset\\\\Car damage\\\\level\\\\training',\n",
     "        target_size=(150, 150),\n",
     "        batch_size=32,\n",
     "        class_mode='categorical')"
@@ -134,7 +134,7 @@
    ],
    "source": [
     "level_val_generator = val_datagen.flow_from_directory(\n",
-    "        'V:\\\\WorkSpace\\\\IBM-Project-23426-1659882722\\\\Dataset\\\\Car damage\\\\level\\\\validation',\n",
+    "        'V:\\\\WorkSpace\\\\IBM-Project\\\\Dataset\\\\Car damage\\\\level\\\\validation',\n",
     "        target_size=(150, 150),\n",
     "        batch_size=32,\n",
     "        class_mode='categorical')"
